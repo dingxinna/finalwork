@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>给我留言</title>
+    <link rel="stylesheet" id="templatecss" type="text/css" href="./css/message.css">
+</head>
+
+<body>
+
+    <body>
+        <header>
+
+            <img src="./images/头像.jpg" alt="图片" width="90" height="90">
+            <br>
+            <h3>DingXinNa</h3>
+            <p>座右铭：穷且益坚，不坠青云之志。</p>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="./index.html">首页</a></li>
+                <li><a class="selected" href="./information.html">关于我的</a></li>
+                <li><a href="./hobby.html">我的爱好</a></li>
+                <li><a href="./hometown.html">我的家乡</a></li>
+                <li><a href="./pictures.html">我的相册</a></li>
+                <li><a href="./message.html">给我留言</a></li>
+                <img src="./images/导航.png" alt="">
+            </ul>
+
+        </nav>
+        <form action="" method="post" class="message">
+
+            <h1>留言板
+
+                <span>欢迎留言。</span>
+
+            </h1>
+
+
+
+            </label>
+
+            <label>
+
+                <span>留言人 :</span>
+
+                <input id="name" type="text" name="name" placeholder="请输入你的姓名" />
+
+            </label>
+
+            <label>
+
+                <span>联系方式 :</span>
+
+                <input id="tel" type="tel" name="tel" placeholder="请输入联系方式" />
+
+            </label>
+
+            <label>
+
+                <span>邮箱 :</span>
+
+                <input id="email" type="email" name="email" placeholder="请输入邮箱" />
+
+            </label>
+
+            <label>
+
+                <span>内容 :</span>
+
+                <textarea id="message" name="message" placeholder="请留言"></textarea>
+
+            </label>
+
+            <label>
+
+                <span>留言类型 :</span><select name="selection">
+
+                    <option value="Job Inquiry">工作留言</option>
+
+                    <option value="General Question">日常留言</option>
+
+                </select>
+
+            </label>
+
+            <label>
+
+                <span>&nbsp;</span>
+
+                <input type="button" class="button" value="发送" />
+
+            </label>
+
+        </form>
+
+        <script>
+
+            function changeStyle() {
+
+                var template = document.getElementById("template");
+
+                var index = template.selectedIndex;
+
+                var templatevalue = template.options[index].value;
+
+                var templatecss = document.getElementById("templatecss");
+
+                templatecss.setAttribute("href", "css/" + templatevalue + ".css");
+
+                document.getElementsByTagName("form")[0].setAttribute("class", templatevalue);
+
+            }
+
+        </script>
+
+
+        <footer>
+            &copy; dingxinna
+        </footer>
+    </body>
+
+</html>

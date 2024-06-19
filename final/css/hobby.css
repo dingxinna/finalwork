@@ -1,0 +1,157 @@
+body {
+    background-color: rgb(247, 247, 241);
+    margin: 0;
+}
+
+header {
+    background: url(../images/页眉.png) no-repeat;
+    background-size: 300px 150px;
+    text-align: center;
+    margin: 15px;
+    font-size: 90%;
+    line-height: 8px;
+}
+
+nav {
+    height: 48px;
+    background-color: rgb(244, 227, 230);
+    width: 100%;
+    padding: 0 30px 0 0;
+    margin: 0;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: rgb(107, 102, 103);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* 当鼠标悬停时把链接颜色更改为 #f7f2f2 */
+nav ul li a:hover {
+    background-color: #f7f2f2;
+}
+
+nav ul li .selected {
+    background-color: #ddb6c6;
+}
+
+nav ul img {
+    float: right;
+    width: 200px;
+    -ms-hyphenate-limit-zone: 48px;
+}
+
+#main {
+    /* border: #ddb6c6 3px dashed; */
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 60%;
+    height: 1250px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.text {
+    text-align: center;
+    font-family: serif;
+    float: left;
+    width: 70%;
+    height: 130px;
+}
+
+.img {
+    float: left;
+    width: 30%;
+    height: 130px;
+}
+
+#read {
+    border: #ddb6c6 3px dashed;
+    border-radius: 20px;
+    height: 140px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 0;
+
+}
+
+#music {
+    border: #ddb6c6 3px dashed;
+    border-radius: 20px;
+    height: 120px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 0;
+}
+
+#star {
+    border: #ddb6c6 3px dashed;
+    border-radius: 20px;
+    height: 180px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 0;
+}
+
+#eat {
+    border: #ddb6c6 3px dashed;
+    border-radius: 20px;
+    height: 180px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 0;
+}
+
+#travel {
+    border: #ddb6c6 3px dashed;
+    border-radius: 20px;
+    height: 140px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 0;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(107, 102, 103);
+    /* background-color: #ddb6c6; */
+}
+
+footer {
+    font-size: 90%;
+    padding: 15px;
+    margin: 0px;
+    color: rgb(107, 102, 103);
+    background-color: rgb(244, 227, 230);
+    /* position: absolute;
+    bottom: 0; */
+    /* 设置页脚position为absolute之后，再将其bottom值设为0，即可使其处于页面的底部 */
+    width: 100%;
+    text-align: center;
+}

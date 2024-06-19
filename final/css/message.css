@@ -1,0 +1,185 @@
+body {
+    background-color: rgb(247, 247, 241);
+    margin: 0;
+}
+
+header {
+    background: url(../images/页眉.png) no-repeat;
+    background-size: 300px 150px;
+    text-align: center;
+    margin: 15px;
+    font-size: 90%;
+    line-height: 8px;
+}
+
+
+
+nav {
+    height: 48px;
+    background-color: rgb(244, 227, 230);
+    width: 100%;
+    padding: 0 30px 0 0;
+    margin: 0;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: rgb(107, 102, 103);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* 当鼠标悬停时把链接颜色更改为 #f7f2f2 */
+nav ul li a:hover {
+    background-color: #f7f2f2;
+}
+
+nav ul li .selected {
+    background-color: #ddb6c6;
+}
+
+nav ul img {
+    float: right;
+    width: 200px;
+    -ms-hyphenate-limit-zone: 48px;
+}
+
+.message {
+
+    margin: 20px auto;
+
+    max-width: 500px;
+
+    background: #F8F8F8;
+
+    padding: 30px 30px 20px 30px;
+
+    font: 12px Arial, Helvetica, sans-serif;
+
+    color: #ddb6c6;
+
+    border-radius: 5px;
+
+    -webkit-border-radius: 5px;
+
+    -moz-border-radius: 5px;
+
+}
+
+.message h1 {
+    font: 24px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    padding: 20px 0px 20px 40px;
+    display: block;
+    margin: -30px -30px 10px -30px;
+    color: rgb(107, 102, 103);
+    background: rgb(244, 227, 230);
+    border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    border-bottom: 1px solid rgb(244, 227, 230);
+}
+
+.message h1>span {
+    display: block;
+    font-size: 11px;
+    color: #949494;
+}
+
+
+
+.message label {
+    display: block;
+    margin: 0px 0px 5px;
+}
+
+.message label>span {
+    float: left;
+    margin-top: 10px;
+    color: #5E5E5E;
+}
+
+.message input[type="text"],
+.message input[type="tel"],
+.message input[type="email"],
+.message textarea,
+.message select {
+    color: #555;
+    height: 30px;
+    line-height: 15px;
+    width: 100%;
+    padding: 0px 0px 0px 10px;
+    margin-top: 2px;
+    border: 1px solid #E5E5E5;
+    background: #FBFBFB;
+    outline: 0;
+    -webkit-box-shadow: inset 1px 1px 2px rgba(238, 238, 238, 0.2);
+    box-shadow: inset 1px 1px 2px rgba(238, 238, 238, 0.2);
+    font: normal 14px/14px Arial, Helvetica, sans-serif;
+}
+
+.message textarea {
+    height: 100px;
+    padding-top: 10px;
+}
+
+.message select {
+    /* background: url('down-arrow.png') no-repeat right, -moz-linear-gradient(top, #FBFBFB 0%, #E9E9E9 100%); */
+    background: url('down-arrow.png') no-repeat right, -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FBFBFB), color-stop(100%, #E9E9E9));
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    width: 100%;
+    height: 30px;
+}
+
+.message .button {
+
+    background-color: rgb(244, 227, 230);
+
+    border-radius: 5px;
+
+    -webkit-border-radius: 5px;
+
+    -moz-border-border-radius: 5px;
+
+    border: none;
+
+    padding: 10px 25px 10px 25px;
+
+    color: rgb(107, 102, 103);
+
+}
+
+.message .button:hover {
+
+    background-color: #f7f2f2;
+
+}
+
+footer {
+    font-size: 90%;
+    padding: 15px;
+    margin: 0px;
+    color: rgb(107, 102, 103);
+    background-color: rgb(244, 227, 230);
+    /* position: absolute;
+    bottom: 0; */
+    /* 设置页脚position为absolute之后，再将其bottom值设为0，即可使其处于页面的底部 */
+    width: 100%;
+    text-align: center;
+}
