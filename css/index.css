@@ -48,7 +48,6 @@ nav ul li .selected {
 nav ul img {
     float: right;
     width: 200px;
-    -ms-hyphenate-limit-zone: 48px;
 }
 
 #main {

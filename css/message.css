@@ -54,7 +54,6 @@ nav ul li .selected {
 nav ul img {
     float: right;
     width: 200px;
-    -ms-hyphenate-limit-zone: 48px;
 }
 
 .message {
@@ -136,8 +135,7 @@ nav ul img {
 }
 
 .message select {
-    /* background: url('down-arrow.png') no-repeat right, -moz-linear-gradient(top, #FBFBFB 0%, #E9E9E9 100%); */
-    background: url('down-arrow.png') no-repeat right, -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FBFBFB), color-stop(100%, #E9E9E9));
+    background: no-repeat right, -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FBFBFB), color-stop(100%, #E9E9E9));
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -177,9 +175,6 @@ footer {
     margin: 0px;
     color: rgb(107, 102, 103);
     background-color: rgb(244, 227, 230);
-    /* position: absolute;
-    bottom: 0; */
-    /* 设置页脚position为absolute之后，再将其bottom值设为0，即可使其处于页面的底部 */
     width: 100%;
     text-align: center;
 }
