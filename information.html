@@ -9,83 +9,46 @@
 </head>
 
 <body>
+    <!-- 页眉区 -->
     <header>
-
+        <!-- 插入头像图片，alt为图片的替代文本 -->
         <img src="./images/头像.jpg" alt="图片" width="90" height="90">
         <br>
+        <!-- 显示昵称 -->
         <h3>DingXinNa</h3>
+        <!-- 显示座右铭 -->
         <p>座右铭：穷且益坚，不坠青云之志。</p>
     </header>
+    <!-- 页眉区结束 -->
+
+    <!-- 定义页面的导航栏 -->
     <nav>
+        <!-- 定义一个无序列表，用作导航链接 -->
         <ul>
+            <!-- 导航链接到首页 -->
             <li><a href="./index.html">首页</a></li>
-            <li><a class="selected" href="./information.html">关于我的</a></li>
-            <li><a href="./hobby.html">我的爱好</a></li>
+            <!-- 当前页面的链接，有特殊样式 -->
+            <li><a href="./information.html">关于我的</a></li>
+            <!-- 导航链接到我的爱好页面 -->
+            <li><a class="selected" href="./hobby.html">我的爱好</a></li>
+            <!-- 导航链接到我的家乡页面 -->
             <li><a href="./hometown.html">我的家乡</a></li>
+            <!-- 导航链接到我的相册页面 -->
             <li><a href="./pictures.html">我的相册</a></li>
+            <!-- 导航链接到留言页面 -->
             <li><a href="./message.html">给我留言</a></li>
+            <!-- 导航栏右侧的装饰图片 -->
             <img src="./images/导航.png" alt="">
         </ul>
-
     </nav>
+    <!-- 导航区结束 -->
+
+    <!-- 主要内容区，使用表格展示个人信息 -->
     <div id="main">
-        <!-- <h1><span class="style1">个人介绍</span></h1>
-        <h2>基本信息</h2>
-        <table class="style2">
-            <tr>
-                <td class="style3">
-                    姓名：丁鑫娜</td>
-                <td class="style3">
-                    出生年月：2004.07</td>
-                <td class="style4" rowspan="5">
-                    <img alt="" src="./images/证件照1.jpg" style="height: 200px; width: 150px; text-align: justify;" />
-                </td>
-            </tr>
-            <tr>
-                <td class="style3">
-                    性别：女</td>
-                <td class="style3">
-                    民族：汉</td>
-            </tr>
-            <tr>
-                <td class="style3">
-                    籍贯：福建南平</td>
-                <td class="style3">
-                    政治面貌：共青团员</td>
-            </tr>
-            <tr>
-                <td class="style3">
-                    手机：13338535185</td>
-                <td class="style3">
-                    邮箱：dingxinna@stu.zuel.edu.cn</td>
-            </tr>
-        </table>
-        <h2>教育背景</h2>
-        <p class="style5">
-            2022.09至今&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            中南财经政法大学&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            信息管理与信息系统</p>
-        <p class="style5">
-            主修课程：</p>
-        <p class="style5">
-            程序设计、数据结构、运筹与决策、计算机网络、离散数学、操作系统、java程序设计、数据库系统等。</p>
-        <h2>校园经历</h2>
-        <p class="style5">
-            2022.09-2023.09&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;信息管理部i中南大团队技术部&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;干事
-        </p>
-        <p class="style5">
-            2023.09至今&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;信息管理部i中南大团队行政部&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;副部长
-        </p>
-        <h2>所获荣誉</h2>
-        <p class="style5">优秀学生奖学金二等奖</p>
-        <p class="style5">校级优秀共青团员</p>
-        <p class="style5">第十四届全国大学生电子商务“创新、创意及创业”挑战赛校级一等奖</p>
-        <h2>自我评价</h2>
-        <p class="style5">学业水平扎实，专业排名5/75</p>
-        <p class="style5">思维敏捷，严谨细致，出色执行力及抗压力</p>
-        <p class="style5">具备出色组织协调能力</p> -->
         <h2>个 人 介 绍</h2>
+        <!-- 一个带边框的表格，用于展示个人信息，tr标签表示表格的行，th表示表格的单元格-->
         <table border="3">
+            <!-- 表格的表头行 -->
             <tr>
                 <th>姓 名</th>
                 <th class="style">丁鑫娜</th>
@@ -93,9 +56,10 @@
                 <th class="style">女</th>
                 <th>出生年月</th>
                 <th class="style">2004.07.01</th>
+                <!-- 跨越三行的表格单元格，展示个人证件照 -->
                 <th rowspan="3"><img src="./images/证件照1.jpg" alt="" style="height: 200px; width: 150px;"></th>
             </tr>
-
+            <!-- 表格的第二行-->
             <tr>
                 <th>籍 贯</th>
                 <th class="style">福建</th>
@@ -104,10 +68,13 @@
                 <th>政治面貌</th>
                 <th class="style">共青团员</th>
             </tr>
+            <!-- 表格的第三行-->
             <tr>
                 <th>联系电话</th>
+                <!-- 合并两个单元格，展示联系电话信息 -->
                 <th colspan="2" class="style">13338535185</th>
                 <th>电子邮箱</th>
+                <!-- 合并两个单元格，展示电子邮箱信息 -->
                 <th colspan="2" class="style">dingxinna@stu.zuel.edu.cn</th>
             </tr>
 
@@ -115,7 +82,9 @@
 
 
             <tr class="tr1">
+                <!-- 教育背景部分，使用三行合并单元格展示详细信息 -->
                 <th rowspan="3">教育背景</th>
+                <!-- 合并六个单元格，跨越三行，展示教育背景详细信息 -->
                 <th colspan="6" rowspan="3" class="style">
                     <p>
                         2022.09至今&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -125,11 +94,9 @@
                         主修课程：程序设计、数据结构、运筹与决策、计算机网络、离散数学、操作系统、java程序设计、数据库系统等。</p>
                 </th>
             </tr>
-
+            <!-- 空行，用于合并单元格 -->
             <tr class="tr1"></tr>
-
             <tr class="tr1"></tr>
-
 
             <tr class="tr1">
                 <th rowspan="3">校园经历</th>
@@ -172,9 +139,13 @@
             <tr class="tr1"></tr>
         </table>
     </div>
+    <!-- 主要内容区结束 -->
+
+    <!-- 页脚区 -->
     <footer>
         &copy; dingxinna
     </footer>
+    <!-- 页脚区结束 -->
 </body>
 
 </html>

@@ -1,102 +1,151 @@
 body {
     background-color: rgb(247, 247, 241);
+    /* 设置页面背景颜色 */
     margin: 0;
+    /* 移除body的默认外边距 */
 }
 
 header {
     background: url(../images/页眉.png) no-repeat;
+    /* 页眉背景图片，不重复显示，用作装饰 */
     background-size: 300px 150px;
+    /* 背景图片大小 */
     text-align: center;
+    /* 文本居中对齐 */
     margin: 15px;
+    /* 设置外边距 */
     font-size: 90%;
+    /* 设置字体大小 */
     line-height: 8px;
+    /* 设置行高 */
 }
 
 nav {
     height: 48px;
+    /* 导航栏高度 */
     background-color: rgb(244, 227, 230);
+    /* 导航栏背景颜色 */
     width: 100%;
+    /* 导航栏宽度 */
     padding: 0 30px 0 0;
+    /* 内边距设置 */
     margin: 0;
+    /* 移除外边距 */
 }
-
 
 nav ul {
     list-style-type: none;
+    /* 移除列表项的默认符号 */
     margin: 0;
+    /* 移除外边距 */
     padding: 0;
+    /* 移除内边距 */
     overflow: hidden;
+    /* 隐藏溢出的内容 */
 }
 
 nav ul li {
     float: left;
+    /* 浮动布局，导航项浮动到左侧 */
 }
 
 nav ul li a {
     display: block;
+    /* 链接显示为块级元素 */
     color: rgb(107, 102, 103);
+    /* 文字颜色 */
     text-align: center;
+    /* 文本居中对齐 */
     padding: 14px 16px;
+    /* 设置内边距 */
     text-decoration: none;
+    /* 移除下划线 */
 }
 
-/* 当鼠标悬停时把链接颜色更改为 #f7f2f2 */
 nav ul li a:hover {
     background-color: #f7f2f2;
+    /* 鼠标悬停时的背景颜色 */
 }
 
 nav ul li .selected {
     background-color: #ddb6c6;
+    /* 选中的链接背景颜色 */
 }
 
 nav ul img {
     float: right;
+    /* 浮动布局，图片浮动到右侧 */
     width: 200px;
+    /* 设置图片宽度 */
 }
 
 #main {
     margin: 0 auto;
+    /* 外边距自动，水平居中 */
     margin-top: 20px;
+    /* 顶部外边距 */
     margin-bottom: 20px;
+    /* 底部外边距 */
     width: 60%;
+    /* 容器宽度 */
     height: 800px;
+    /* 容器高度 */
     padding: 10px;
+    /* 内边距 */
     text-align: center;
-
+    /* 文本居中对齐 */
 }
 
 h2 {
     text-align: center;
+    /* 标题居中对齐 */
     color: rgb(79, 77, 77);
+    /* 标题颜色 */
 }
 
 table {
     margin: auto;
+    /* 表格自动外边距，水平居中 */
     border-color: #ddb6c6;
+    /* 表格边框颜色 */
     border-collapse: collapse;
+    /* 边框合并为单一边框 */
     text-align: left;
+    /* 文本左对齐 */
 }
 
 th {
     width: 80px;
+    /* 表头单元格宽度 */
     height: 30px;
+    /* 表头单元格高度 */
 }
 
 .style {
     font-weight: 100;
-    font-family: 黑体
+    /* 字体粗细 */
+    font-family: 黑体;
+    /* 设置字体族 */
 }
 
 .tr1 {
     height: 40px;
+    /* 行高度 */
 }
 
 footer {
     font-size: 90%;
+    /* 字体大小 */
     padding: 15px;
+    /* 内边距 */
     margin: 0px;
+    /* 移除外边距 */
     color: rgb(107, 102, 103);
+    /* 文字颜色 */
     background-color: rgb(244, 227, 230);
+    /* 背景颜色 */
     width: 100%;
+    /* 宽度 */
     text-align: center;
+    /* 文本居中对齐 */
 }

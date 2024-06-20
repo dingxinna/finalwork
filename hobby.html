@@ -9,25 +9,45 @@
 </head>
 
 <body>
+    <!-- 页眉区 -->
     <header>
+        <!-- 插入头像图片，alt为图片的替代文本 -->
         <img src="./images/头像.jpg" alt="图片" width="90" height="90">
         <br>
+        <!-- 显示昵称 -->
         <h3>DingXinNa</h3>
+        <!-- 显示座右铭 -->
         <p>座右铭：穷且益坚，不坠青云之志。</p>
     </header>
+    <!-- 页眉区结束 -->
+
+    <!-- 定义页面的导航栏 -->
     <nav>
+        <!-- 定义一个无序列表，用作导航链接 -->
         <ul>
+            <!-- 导航链接到首页 -->
             <li><a href="./index.html">首页</a></li>
+            <!-- 导航链接到关于我的页面 -->
             <li><a href="./information.html">关于我的</a></li>
+            <!-- 当前页面的链接，有特殊样式 -->
             <li><a class="selected" href="./hobby.html">我的爱好</a></li>
+            <!-- 导航链接到我的家乡页面 -->
             <li><a href="./hometown.html">我的家乡</a></li>
+            <!-- 导航链接到我的相册页面 -->
             <li><a href="./pictures.html">我的相册</a></li>
+            <!-- 导航链接到留言页面 -->
             <li><a href="./message.html">给我留言</a></li>
+            <!-- 导航栏右侧的装饰图片 -->
             <img src="./images/导航.png" alt="">
         </ul>
     </nav>
+    <!-- 导航区结束 -->
+
+    <!-- 主要内容区域的容器，内部分为read、music、eat、star、travel五个部分，每个部分由一个<h2>标题和一个包含图片和文本的<div>组成 -->
     <div id="main">
+        <!-- 阅读爱好部分的标题，其他部分类似-->
         <h2>阅读</h2>
+        <!-- 阅读爱好部分的容器，图片和文本内容，图片放在.img类中，文本放在.text类中，其余四个部分与该部分相似-->
         <div id="read">
             <div class="img"><img src="./images/阅读.jpg" alt="" width="120px" height="140px"></div>
             <div class="text">
@@ -63,9 +83,13 @@
             </div>
         </div>
     </div>
+    <!-- 主要内容区结束 -->
+
+    <!-- 页脚区 -->
     <footer>
         &copy; dingxinna
     </footer>
+    <!-- 页脚区结束 -->
 </body>
 
 </html>

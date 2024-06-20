@@ -9,27 +9,47 @@
 </head>
 
 <body>
+    <!-- 页眉区 -->
     <header>
+        <!-- 插入头像图片，alt为图片的替代文本 -->
         <img src="./images/头像.jpg" alt="图片" width="90" height="90">
         <br>
+        <!-- 显示昵称 -->
         <h3>DingXinNa</h3>
+        <!-- 显示座右铭 -->
         <p>座右铭：穷且益坚，不坠青云之志。</p>
     </header>
+    <!-- 页眉区结束 -->
+
+    <!-- 定义页面的导航栏 -->
     <nav>
+        <!-- 定义一个无序列表，用作导航链接 -->
         <ul>
+            <!-- 导航链接到首页 -->
             <li><a href="./index.html">首页</a></li>
+            <!-- 导航链接到关于我的页面 -->
             <li><a href="./information.html">关于我的</a></li>
-            <li><a href="./hobby.html">我的爱好</a></li>
+            <!-- 导航链接到我的爱好页面 -->
+            <li><a class="selected" href="./hobby.html">我的爱好</a></li>
+            <!-- 导航链接到我的家乡页面 -->
             <li><a href="./hometown.html">我的家乡</a></li>
-            <li><a class="selected" href="./pictures.html">我的相册</a></li>
+            <!-- 当前页面的链接，有特殊样式 -->
+            <li><a href="./pictures.html">我的相册</a></li>
+            <!-- 导航链接到留言页面 -->
             <li><a href="./message.html">给我留言</a></li>
+            <!-- 导航栏右侧的装饰图片 -->
             <img src="./images/导航.png" alt="">
         </ul>
     </nav>
+    <!-- 导航区结束 -->
+
+    <!-- 主要内容容器，可分为生活碎片、校园风光、美食图鉴、和朋友一起最开心四个部分，每个部分由两个div标签组成。-->
     <div id="main">
+        <!-- 生活碎片的标题栏 -->
         <div class="bar">
             <h3>生活碎片</h3>
         </div>
+        <!-- 生活碎片列表 -->
         <div class="list">
             <ul>
                 <li> <img src="./images/生活1.jpg" height="400" width="100%" />
@@ -46,9 +66,11 @@
                 </li>
             </ul>
         </div>
+        <!-- 校园风光的标题栏 -->
         <div class="bar">
             <h3>校园风光</h3>
         </div>
+        <!-- 校园风光列表 -->
         <div class="list">
             <ul>
                 <li> <img src="./images/校园1.jpg" height="200" width="100%" />
@@ -65,9 +87,11 @@
                 </li>
             </ul>
         </div>
+        <!-- 美食图鉴的标题栏 -->
         <div class="bar">
             <h3>美食图鉴</h3>
         </div>
+        <!-- 美食图鉴列表 -->
         <div class="list">
             <ul>
                 <li> <img src="./images/美食1.jpg" height="300" width="100%" />
@@ -84,9 +108,11 @@
                 </li>
             </ul>
         </div>
+        <!-- 和朋友一起最开心的标题栏 -->
         <div class="bar">
             <h3>和朋友一起最开心</h3>
         </div>
+        <!-- 和朋友一起最开心列表 -->
         <div class="list">
             <ul>
                 <li> <img src="./images/朋友1.jpg" height="500" width="100%" />
@@ -104,9 +130,13 @@
             </ul>
         </div>
     </div>
+    <!-- 主要内容区结束 -->
+
+    <!-- 页脚区 -->
     <footer>
         &copy; dingxinna
     </footer>
+    <!-- 页脚区结束 -->
 </body>
 
 </html>

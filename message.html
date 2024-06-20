@@ -11,94 +11,86 @@
 <body>
 
     <body>
+        <!-- 页眉区 -->
         <header>
-
+            <!-- 插入头像图片，alt为图片的替代文本 -->
             <img src="./images/头像.jpg" alt="图片" width="90" height="90">
             <br>
+            <!-- 显示昵称 -->
             <h3>DingXinNa</h3>
+            <!-- 显示座右铭 -->
             <p>座右铭：穷且益坚，不坠青云之志。</p>
         </header>
+        <!-- 页眉区结束 -->
+
+        <!-- 定义页面的导航栏 -->
         <nav>
+            <!-- 定义一个无序列表，用作导航链接 -->
             <ul>
+                <!-- 导航链接到首页 -->
                 <li><a href="./index.html">首页</a></li>
-                <li><a class="selected" href="./information.html">关于我的</a></li>
-                <li><a href="./hobby.html">我的爱好</a></li>
+                <!-- 导航链接到关于我的页面 -->
+                <li><a href="./information.html">关于我的</a></li>
+                <!-- 导航链接到我的爱好页面 -->
+                <li><a class="selected" href="./hobby.html">我的爱好</a></li>
+                <!-- 导航链接到我的家乡页面 -->
                 <li><a href="./hometown.html">我的家乡</a></li>
+                <!-- 导航链接到我的相册页面 -->
                 <li><a href="./pictures.html">我的相册</a></li>
+                <!-- 当前页面的链接，有特殊样式 -->
                 <li><a href="./message.html">给我留言</a></li>
+                <!-- 导航栏右侧的装饰图片 -->
                 <img src="./images/导航.png" alt="">
             </ul>
-
         </nav>
+        <!-- 导航区结束 -->
+
+        <!-- 留言板表单 -->
         <form class="message">
-
+            <!-- 留言板标题 -->
             <h1>留言板
-
                 <span>欢迎留言。</span>
-
             </h1>
-
-
-
-            </label>
-
+            <!-- 留言人输入框 -->
             <label>
-
                 <span>留言人 :</span>
-
                 <input id="name" type="text" name="name" placeholder="请输入你的姓名" />
-
             </label>
-
+            <!-- 联系方式输入框 -->
             <label>
-
                 <span>联系方式 :</span>
-
                 <input id="tel" type="tel" name="tel" placeholder="请输入联系方式" />
-
             </label>
-
+            <!-- 邮箱输入框 -->
             <label>
-
                 <span>邮箱 :</span>
-
                 <input id="email" type="email" name="email" placeholder="请输入邮箱" />
-
             </label>
-
+            <!-- 留言内容文本区域 -->
             <label>
-
                 <span>内容 :</span>
-
                 <textarea id="message" name="message" placeholder="请留言"></textarea>
-
             </label>
-
+            <!-- 留言类型选择下拉菜单 -->
             <label>
-
                 <span>留言类型 :</span><select name="selection">
-
                     <option value="Job Inquiry">工作留言</option>
-
                     <option value="General Question">日常留言</option>
-
                 </select>
-
             </label>
-
+            <!-- 发送按钮 -->
             <label>
-
                 <span>&nbsp;</span>
-
                 <input type="button" class="button" value="发送" />
-
             </label>
-
         </form>
+        <!-- 表单结束 -->
 
+        <!-- 页脚区 -->
         <footer>
             &copy; dingxinna
         </footer>
+        <!-- 页脚区结束 -->
     </body>
 
 </html>
