@@ -124,7 +124,7 @@ nav ul img {
     border-radius: 20px;
     /* 边框圆角 */
     height: 140px;
-    /* 各部分容器的高度根据内容调整 */
+    /* 容器高度 */
     width: 80%;
     /* 容器宽度 */
     margin: 0 auto;
