@@ -126,6 +126,8 @@ h3 {
 .list {
     width: 100%;
     /* 列表宽度 */
+    float: left;
+    /* 浮动布局 */
 }
 
 .list li {

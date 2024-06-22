@@ -105,7 +105,7 @@ nav ul img {
     /* 浮动布局，浮动到左侧 */
     width: 70%;
     /* 文本宽度 */
-    height: 130px;
+    height: 10px;
     /* 文本高度 */
 }
 
@@ -118,17 +118,91 @@ nav ul img {
     /* 图片容器高度 */
 }
 
-#read,
-#music,
-#star,
-#eat,
+#read {
+    border: #ddb6c6 3px dashed;
+    /* 边框样式：颜色、线型、宽度 */
+    border-radius: 20px;
+    /* 边框圆角 */
+    height: 140px;
+    /* 各部分容器的高度根据内容调整 */
+    width: 80%;
+    /* 容器宽度 */
+    margin: 0 auto;
+    /* 外边距自动，水平居中 */
+    margin-top: 20px;
+    /* 上边距 */
+    margin-bottom: 20px;
+    /* 下边距 */
+    padding: 10px 0;
+    /* 上下内边距10px，左右内边距0 */
+}
+
+#music {
+    border: #ddb6c6 3px dashed;
+    /* 边框样式：颜色、线型、宽度 */
+    border-radius: 20px;
+    /* 边框圆角 */
+    height: 120px;
+    /* 容器高度*/
+    width: 80%;
+    /* 容器宽度 */
+    margin: 0 auto;
+    /* 外边距自动，水平居中 */
+    margin-top: 20px;
+    /* 上边距 */
+    margin-bottom: 20px;
+    /* 下边距 */
+    padding: 10px 0;
+    /* 上下内边距10px，左右内边距0 */
+}
+
+#eat {
+    border: #ddb6c6 3px dashed;
+    /* 边框样式：颜色、线型、宽度 */
+    border-radius: 20px;
+    /* 边框圆角 */
+    height: 180px;
+    /* 容器高度 */
+    width: 80%;
+    /* 容器宽度 */
+    margin: 0 auto;
+    /* 外边距自动，水平居中 */
+    margin-top: 20px;
+    /* 上边距 */
+    margin-bottom: 20px;
+    /* 下边距 */
+    padding: 10px 0;
+    /* 上下内边距10px，左右内边距0 */
+}
+
+#star {
+    border: #ddb6c6 3px dashed;
+    /* 边框样式：颜色、线型、宽度 */
+    border-radius: 20px;
+    /* 边框圆角 */
+    height: 190px;
+    /* 容器高度 */
+    width: 80%;
+    /* 容器宽度 */
+    margin: 0 auto;
+    /* 外边距自动，水平居中 */
+    margin-top: 20px;
+    /* 上边距 */
+    margin-bottom: 20px;
+    /* 下边距 */
+    padding: 10px 0;
+    /* 上下内边距10px，左右内边距0 */
+}
+
+
+
 #travel {
     border: #ddb6c6 3px dashed;
     /* 边框样式：颜色、线型、宽度 */
     border-radius: 20px;
     /* 边框圆角 */
-    height: 相应高度;
-    /* 各部分容器的高度根据内容调整 */
+    height: 140px;
+    /* 容器高度 */
     width: 80%;
     /* 容器宽度 */
     margin: 0 auto;
